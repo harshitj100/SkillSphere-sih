@@ -1,0 +1,45 @@
+.start-grid{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    gap:10px;
+    grid-template-areas:
+    "two one"
+    "three one"
+    "four one";
+}
+.item-grid{
+
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.item1{
+
+    grid-area: one;
+    padding: 50px 0;
+}
+.item2{
+    font-family: Montserrat;
+    text-align:center;
+    font-size:5rem;
+    color:#1A90E4;
+    font-weight: bold;
+}
+.item3{
+    width: 580px;
+    height: 280px;
+    top: 406px;
+    left: 360px;
+
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Roboto Light";
+    padding-left: 180px;
+
+}
+
+
