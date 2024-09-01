@@ -11,7 +11,7 @@
 .course-title {
   width: 428px;
   height: 148px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 64px;
   font-weight: 600;
   line-height: 78.02px;
@@ -21,7 +21,7 @@
 .course-tag-line {
   width: 424px;
   height: 81px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 29.26px;
@@ -40,7 +40,7 @@
   padding: 24px 36px 24px 36px;
   border-radius: 10px;
   border: 1px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 39.01px;
@@ -62,7 +62,7 @@
 .enroll-btn-text {
   width: 100px;
   height: 38px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 32px;
   font-weight: 600;
@@ -86,7 +86,7 @@
 .future-scope-course-title,
 .course-overview-title {
   display: inline-block;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 500;
   line-height: 45px;
@@ -95,7 +95,7 @@
 
 .course-defination,
 .future-scope-course-content {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 30px;
@@ -112,7 +112,7 @@
   border: 1px;
   background-color: #91E5EA;
   border: 1px solid #000000;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 40px;
