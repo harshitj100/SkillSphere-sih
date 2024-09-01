@@ -1,6 +1,7 @@
 import react from 'react';
+import Header1 from "./screen/Header1";
 
 function Home(){
-    return <div><h1>this is home</h1></div>
+    return <div><Header1/></div>
 }
 export default Home;

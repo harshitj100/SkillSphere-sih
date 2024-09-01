@@ -41,6 +41,20 @@
     padding-left: 180px;
 
 }
+.nav-title {
+    color: #1A90E4;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-right: 30px;
+}
+
+.nav-title:hover {
+    color: blue; /* Change color on hover */
+    cursor: pointer;
+}
 
 
 
