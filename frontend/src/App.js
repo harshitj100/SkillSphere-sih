@@ -1,14 +1,8 @@
 import React from 'react'
-import Header1 from "./screen/Header1"
 import "./styles/styles.css";
-import img from "./assets/homepic.jpg";
-import {useState} from "react";
 import Home from "./Home";
 import About from "./About";
 import {Link, Route, Router, Routes} from "react-router-dom";
-import CoverPage from "./Coverpage";
-
-
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import Coverpage from "./Coverpage";
 
@@ -22,6 +16,10 @@ function App() {
         {
             path:"/home",
             element:<Home />
+        },
+        {
+            path:"/about",
+            element:<About/>
         }
     ]);
 
@@ -30,6 +28,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Coverpage />} />
                 <Route path="/home" element={<Home />} />
+
             </Routes>
         </RouterProvider>
     );
