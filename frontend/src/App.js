@@ -1,10 +1,27 @@
 import React from 'react'
-import Header1 from "./Header1"
+import {useState} from "react";
+import Home from "./Home";
+import About from "./About";
+import {Link, Route, Router, Routes} from "react-router-dom";
+import CoverPage from "./Coverpage";
+import {createBrowserRouter,RouterProvider} from "react-router-dom";
+import Coverpage from "./Coverpage";
+import Header1 from "./screen/Header1"
 import "./styles/styles.css";
 import img from "./assets/homepic.jpg";
 import Course from './Course';
 import V_lab from './V_lab';
 const App = () => {
+  const router = createBrowserRouter([
+    {
+        path: "/",
+        element:<Coverpage />,
+    },
+    {
+        path:"/home",
+        element:<Home />
+    }
+]);
   return (
     <div>
         <Header1 />
@@ -15,8 +32,14 @@ const App = () => {
             <div className="item-grid item4"><a className="btn btn-outline-primary" href="#" role="button">Get Started</a></div>
         </div>
         <V_lab/>
+        <RouterProvider router={router}>
+            <Routes>
+                <Route path="/" element={<Coverpage />} />
+                <Route path="/home" element={<Home />} />
+            </Routes>
+        </RouterProvider>
     </div>
   )
-}
 
-export default App
+
+export default App;
