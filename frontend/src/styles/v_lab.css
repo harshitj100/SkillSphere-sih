@@ -1,0 +1,84 @@
+.what-v-lab-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.v-lab-intro-container {
+  background-color: yellow;
+  width: 412px;
+}
+
+.v-lab-intro {
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 80px;
+  text-align: center;
+  text-align: left;
+}
+
+.v-lab-content {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: right;
+  color: #615E5E;
+}
+
+.v-lab-start-btn {
+  width: 184px;
+  height: 62px;
+  top: 312px;
+  left: 104px;
+  padding: 0px 49px 0px 50px;
+  border-radius: 10px;
+  background-color: #6FCD58;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+}
+
+.v-lab-image {
+  width: 771px;
+  height: 405px;
+}
+
+.features-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lab-features {
+  width: 331px;
+  height: 326px;
+  padding: 63px 41px 51px 44px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 100px 0px #0000001F;
+}
+
+.lab-features-title {
+  width: 246px;
+  height: 72px;
+  font-family: Recursive;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.lab-features-content {
+  width: 232px;
+  height: 94px;
+  font-family: Recursive;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #726F6F;
+}

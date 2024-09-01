@@ -2,6 +2,8 @@ import React from 'react'
 import Header1 from "./Header1"
 import "./styles/styles.css";
 import img from "./assets/homepic.jpg";
+import Course from './Course';
+import V_lab from './V_lab';
 const App = () => {
   return (
     <div>
@@ -12,6 +14,7 @@ const App = () => {
             <div className="item-grid item3">"An innovative platform offering immersive virtual labs for conducting hands-on science and technology experiments, enabling learners to explore and understand complex concepts interactively."</div>
             <div className="item-grid item4"><a className="btn btn-outline-primary" href="#" role="button">Get Started</a></div>
         </div>
+        <V_lab/>
     </div>
   )
 }
