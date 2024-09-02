@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Header from './utils/Header';
 import img from "./assets/homepic.jpg";
+import { Link } from 'react-router-dom';
 
 function Coverpage() {
     const navigate = useNavigate();
@@ -31,10 +32,10 @@ function Coverpage() {
                 </div>
 
                 <div className="item-grid item4">
+                    <Link to="/home">
                     <button className="btn btn-outline-primary" style={{ fontSize: "40px" }} onClick={goToHomePage} role="button">Get Started
                     </button>
-
-
+                    </Link>
                 </div>
 
             </div>

@@ -3,59 +3,55 @@ import logo from '../assets/logo.png'
 import back from '../assets/menu-back.png'
 import { Link } from 'react-router-dom'
 import '../styles/header.css'
+
 const Header = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
   const menuBar = () => {
     setIsVisible(!isVisible);
   }
   return (
     <>
-      {!isVisible ?
-        <div className='side-menu-bar'>
-          <div className='top-section'>
-            <div className='top-upper-section'>
-              <div className="back-icon" onClick={menuBar}>
-                <img src={back} className='menu-back-btn-img' />
-              </div>
-              <div className='side-menu-logo'>
-                <Link to="/">
-                  <div className="logo">
-                    <img src={logo} alt="Logo" className='logo-image-side-menu' />
-                  </div>
-                  <div className="logo-text-side-menu">
-                    <span>Skillsphere</span>
-                  </div>
-                </Link>
-              </div>
+      <div className={`side-menu-bar ${isVisible ? 'visible' : ''}`}>
+        <div className='top-section'>
+          <div className='top-upper-section'>
+            <div className="back-icon" onClick={menuBar}>
+              <img src={back} className='menu-back-btn-img' />
             </div>
+            <div className='side-menu-logo'>
 
-            <div className='top-lower-section'>
-              <Link to="/home">
-                <div className='side-menu-bar-element'>Home</div>
-              </Link>
-              <Link to="/about">
-                <div className='side-menu-bar-element'>About us</div>
-              </Link>
-              <Link to="/chatAi">
-                <div className='side-menu-bar-element'>Chat AI</div>
-              </Link>
-              <Link to="/settings">
-                <div className='side-menu-bar-element'>Settings</div>
-              </Link>
+              <div className="logo">
+                <img src={logo} alt="Logo" className='logo-image-side-menu' />
+              </div>
+              <div className="logo-text-side-menu">
+                <Link to="/" className='custom-link'><div className='skillsphere-txt'>Skillsphere</div></Link>
+              </div>
+
             </div>
           </div>
 
-          <div className='bottom-section'>
-            <Link to="/help">
-              <div className='side-menu-bar-element'>Help</div>
+          <div className='top-lower-section'>
+
+            <Link to="/home" className='custom-link'><div className='side-menu-bar-element'>Home</div></Link>
+
+            <Link to="/about" className='custom-link'>
+              <div className='side-menu-bar-element'>About us</div>
             </Link>
-            <div className='side-menu-bar-element'>Log out</div>
+            <Link to="/chatAi" className='custom-link'>
+              <div className='side-menu-bar-element'>Chat AI</div>
+            </Link>
+            <Link to="/settings" className='custom-link'>
+              <div className='side-menu-bar-element'>Settings</div>
+            </Link>
           </div>
         </div>
-        :
-        <div>
+
+        <div className='bottom-section'>
+          <Link to="/help" className='custom-link'>
+            <div className='side-menu-bar-element'>Help</div>
+          </Link>
+          <div className='side-menu-bar-element'>Log out</div>
         </div>
-      }
+      </div>
 
       <nav className="navbar">
         <div className="left-section">
