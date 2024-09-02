@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Coverpage() {
     const navigate = useNavigate();
-
+    
     const goToHomePage = () => {
         navigate('/home');
     };

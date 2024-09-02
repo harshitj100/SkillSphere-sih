@@ -6,6 +6,7 @@ import '../styles/header.css'
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const currentPath = window.location.pathname;
   const menuBar = () => {
     setIsVisible(!isVisible);
   }
@@ -52,12 +53,16 @@ const Header = () => {
           <div className='side-menu-bar-element'>Log out</div>
         </div>
       </div>
-
+      
       <nav className="navbar">
         <div className="left-section">
-          <div className="menu-icon" onClick={menuBar}>
-            &#9776;
-          </div>
+          {
+            currentPath == "/" ? 
+              '' :
+              <div className="menu-icon" onClick={menuBar}>
+                &#9776;
+              </div>
+          }
           <div className="logo">
             <img src={logo} alt="Logo" className='logo-image' />
           </div>

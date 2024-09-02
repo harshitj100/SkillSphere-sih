@@ -1,7 +1,12 @@
-import react from 'react';
+import React from 'react'
 import Header1 from "./screen/Header1";
-
-function Home(){
-    return <div><Header1/></div>
+import Header from './utils/Header';
+const Home = () => {
+  return (
+    <div>
+      <Header/>
+    </div>
+  )
 }
-export default Home;
+
+export default Home
