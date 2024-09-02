@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Header1 from "./screen/Header1";
+import Header from './utils/Header';
 import img from "./assets/homepic.jpg";
 
 function Coverpage() {
@@ -13,7 +13,7 @@ function Coverpage() {
     return (
         <div>
 
-            <Header1 />
+            <Header />
 
             <div className="start-grid">
                 <div className="item-grid item1"><img src={img} /></div>

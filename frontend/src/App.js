@@ -4,9 +4,10 @@ import Home from "./Home";
 import About from "./About";
 import V_lab from './V_lab';
 import Course from './Course'
-import { Link, Route, Router, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Coverpage from "./Coverpage";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 function App() {

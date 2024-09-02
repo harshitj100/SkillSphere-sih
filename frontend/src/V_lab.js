@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles/v_lab.css'
 import vLab from './assets/v_lab.jpg'
+import Header from './utils/Header'
 
 const V_lab = () => {
   const features = [
@@ -18,6 +19,7 @@ const V_lab = () => {
 
   return (
     <>
+    <Header/>
     <div className='what-v-lab-container'>
       <div className='v-lab-intro-container'>
         <div className='v-lab-intro'>

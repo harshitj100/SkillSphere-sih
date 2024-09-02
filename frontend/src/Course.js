@@ -2,9 +2,12 @@ import React from 'react'
 import './styles/course.css'
 import enrollImg from './assets/enroll-btn.png'
 import chatAi from './assets/chatAi.png'
+import Header from './utils/Header';
+
 const Course = () => {
   return (
     <>
+      <Header/>
       <div className='course-start-container'>
         <div className='course-title-container'>
           <div className='course-title'>
