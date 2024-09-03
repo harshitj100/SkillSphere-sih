@@ -57,18 +57,22 @@ const Header = () => {
       <nav className="navbar">
         <div className="left-section">
           {
-            currentPath == "/" ? 
-              '' :
-              <div className="menu-icon" onClick={menuBar}>
-                &#9776;
-              </div>
+            currentPath == "/" ?
+                '' :
+                <div className="menu-icon" onClick={menuBar}>
+                  &#9776;
+                </div>
           }
+
           <div className="logo">
-            <img src={logo} alt="Logo" className='logo-image' />
-          </div>
-          <div className="logo-text">
+            <Link to={"/home"}>
+              <img src={logo} alt="Logo" className='logo-image'/>
+            </Link>
+        </div>
+        <div className="logo-text">
             <span>Skillsphere</span>
           </div>
+
         </div>
 
         <div className="profile">
