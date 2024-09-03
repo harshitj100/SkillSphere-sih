@@ -3,11 +3,12 @@ import './styles/course.css'
 import enrollImg from './assets/enroll-btn.png'
 import chatAi from './assets/chatAi.png'
 import Header from './utils/Header';
+import CourseCard from './utils/CourseCard';
 
 const Course = () => {
   return (
     <>
-      <Header/>
+      <Header />
       <div className='course-start-container'>
         <div className='course-title-container'>
           <div className='course-title'>
@@ -74,19 +75,41 @@ const Course = () => {
 
         </div>
 
-        <div className='course-overview-container'>
-          <div className='course-overview-title'>
-            Complete Course Overview
+        <div className='course-application-container'>
+          <div className='course-application-title'>
+            Application of Electronics
           </div>
-          <div className='course-overview-btn-container'>
-            <button className='course-overview-btn'>
-              Overview
-            </button>
+          <div className='course-application-content'>
+            1) Consumer Electronics: Discuss everyday devices such as smartphones, tablets, televisions, and smart home devices, highlighting their impact on daily life.
+            <br/>
+            <br/>
+            2) Industrial Applications: Explain how electronics are used in manufacturing processes, automation, robotics, and control systems.
+            <br/>
+            <br/>
+            3) Healthcare and Medical Devices: Explore how electronics play a crucial role in medical equipment like MRI machines, pacemakers, wearable health monitors, and telemedicine.
+            <br/>
+            <br/>
+            4) Automotive Industry: Cover how electronics are integral to modern vehicles, including electric vehicles (EVs), autonomous driving technologies, infotainment systems, and safety features.
+            <br/>
+            <br/>
+            5) Telecommunications: Talk about how electronics underpin communication networks, including mobile phones, internet infrastructure, and satellite communication.
           </div>
         </div>
       </div>
+      <CourseCard />
     </>
   )
 }
 
 export default Course
+
+// < div className = 'course-overview-container' >
+//         <div className='course-overview-title'>
+//           Complete Course Overview
+//         </div>
+//         <div className='course-overview-btn-container'>
+//           <button className='course-overview-btn'>
+//             Overview
+//           </button>
+//         </div>
+//       </div >

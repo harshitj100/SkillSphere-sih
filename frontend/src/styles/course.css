@@ -106,14 +106,14 @@
 .future-scope-course{
   margin-left: 20px;
 }
-.course-overview-container{
-  padding-right: 100px;
+.course-application-container{
+  padding-right: 200px;
   margin-top: 300px;
 }
 
 .course-defination-question,
 .future-scope-course-title,
-.course-overview-title {
+.course-application-title {
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
@@ -126,7 +126,7 @@
 }
 
 .course-defination,
-.future-scope-course-content {
+.future-scope-course-content,.course-application-content {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -138,18 +138,11 @@
   margin-bottom: 15px;
 }
 
-.future-scope-course-content{
+.future-scope-course-content , .course-application-content{
   margin-left: 20px;
 }
 
-.course-overview-btn-container{
-  width: 500px;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 20px;
-}
-
-.course-overview-btn {
+.course-application-btn {
   border-radius: 10px;
   border: 1px;
   padding: 10px 15px;
