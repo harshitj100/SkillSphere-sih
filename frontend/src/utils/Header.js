@@ -58,19 +58,19 @@ const Header = () => {
         <div className="left-section">
           {
             currentPath == "/" ?
-                '' :
-                <div className="menu-icon" onClick={menuBar}>
-                  &#9776;
-                </div>
+              '' :
+              <div className="menu-icon" onClick={menuBar}>
+                &#9776;
+              </div>
           }
 
           <div className="logo">
             <Link to={"/home"}>
-              <img src={logo} alt="Logo" className='logo-image'/>
+              <img src={logo} alt="Logo" className='logo-image' />
             </Link>
-        </div>
-        <div className="logo-text">
-            <span>Skillsphere</span>
+          </div>
+          <div className="logo-text">
+            <span>Virtual Vocations</span>
           </div>
 
         </div>

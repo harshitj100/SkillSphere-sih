@@ -1,6 +1,6 @@
 .navbar{
   border-bottom: 1px solid black;
-  background: linear-gradient(90deg, rgba(234, 214, 243, 0.37) 0%, #A8D2E4 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(207, 237, 228, 0.09) 0%, rgba(122, 158, 251, 0.2) 100%);
 }
 
 .left-section{
@@ -12,7 +12,6 @@
 .logo-image {
   width: 60px;
   height: auto;
-  margin-right: 15px;
 }
 
 .logo-text {
@@ -31,7 +30,7 @@
   font-size: 30px;
   color: #1E3C72;
   cursor: pointer;
-  margin: 0px 20px;
+  margin: 0px 10px 0px 20px;
 }
 
 .fas{
