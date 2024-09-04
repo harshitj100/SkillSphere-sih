@@ -61,6 +61,12 @@
   line-height: 39.01px;
   border: 1px solid #000000;
   padding: 15px 18px;
+  transition: transfrom 0.3s ease , box-shadow 0.3s ease;
+}
+
+.v-lab-btn:hover{
+  transform: scale(1.05);
+  box-shadow: 3px 3px 20px rgba(0 , 0 , 0 , 0.3);
 }
 
 .enroll-btn {
@@ -70,6 +76,12 @@
   background-color: #5FA2D3;
   border: 1px solid #000000;
   padding: 15px 18px;
+  transition: transfrom 0.3s ease , box-shadow 0.3s ease;
+}
+
+.enroll-btn:hover{
+  transform: scale(1.05);
+  box-shadow: 3px 3px 20px rgba(0 , 0 , 0 , 0.3);
 }
 
 .enroll-btn-text {

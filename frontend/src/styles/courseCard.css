@@ -9,10 +9,15 @@
   width: 621px;
   height: 651px;
   border-radius: 10px;
-  border: 1px;
+  border: 1px solid #8C8A8A;
   padding: 10px;
   z-index: 2;
-  border: 1px solid #8C8A8A;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card-container:hover {
+  transform: scale(1.05); /* Increases the size by 5% */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
 }
 
 .course-card-container:hover {
@@ -105,6 +110,12 @@
   padding: 15px;
   padding-left: 22px;
   align-items: first baseline;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card-container-small:hover {
+  transform: scale(1.05); /* Increases the size by 5% */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
 }
 
 .course-image-small {

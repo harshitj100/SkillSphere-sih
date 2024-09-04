@@ -13,12 +13,19 @@
 
 .v-lab-intro {
   font-family: 'Montserrat', sans-serif;
-  font-size: 64px;
+  font-size: 80px;
   font-weight: 500;
   line-height: 80px;
   text-align: left;
   margin-top: 50px;
   margin-bottom: 40px;
+  transition: color 0.3s ease;
+  border-bottom: 3px solid black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+.v-lab-intro:hover{
+  color: blue;
 }
 
 .v-lab-content {
@@ -31,6 +38,7 @@
   width: 400px;
   margin-left: auto;
   margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Slightly more pronounced shadow */
 }
 
 .v-lab-start-btn {
@@ -46,6 +54,12 @@
   font-weight: 500;
   line-height: 40px;
   text-align: center;
+  transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+
+.v-lab-start-btn:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(0 , 0 , 0 , 0.3);
 }
 
 .v-lab-image {
@@ -66,8 +80,12 @@
   padding: 12px;
   border-radius: 15px;
   background-color: #b4d8e6;
-  ;
   box-shadow: 0px 4px 100px 0px #0000001F;
+  transition: transform 0.2s ease;
+}
+
+.lab-features:hover{
+  transform: scale(1.05);
 }
 
 .lab-features-title {
