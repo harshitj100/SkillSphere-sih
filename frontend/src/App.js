@@ -8,7 +8,6 @@ import { Link, Route, Routes } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Coverpage from "./Coverpage";
 import NotAvailable from './NotAvailable';
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 function App() {

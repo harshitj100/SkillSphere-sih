@@ -24,7 +24,7 @@ const Header = () => {
                 <img src={logo} alt="Logo" className='logo-image-side-menu' />
               </div>
               <div className="logo-text-side-menu">
-                <Link to="/" className='custom-link'><div className='skillsphere-txt'>Skillsphere</div></Link>
+                <Link to="/" className='custom-link'><div className='skillsphere-txt'>Vocations</div></Link>
               </div>
 
             </div>

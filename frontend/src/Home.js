@@ -14,6 +14,8 @@ import ImageSlider from './utils/ImageSlider';
 import "./styles/home.css";
 import Header from "./utils/Header";
 import education from "./assets/education.svg";
+import Footer from "./utils/Footer"
+import HomeCourseGrid from './utils/HomeCourseGrid'
 function Home(){
     return <div>
         <Header/>
@@ -24,7 +26,7 @@ function Home(){
                 <h1>Invest In Your<br/>Education  <img src={education}></img>
                 </h1>
             </div>
-            <div className="g1-item3">Skillsphere provides you the hands-on industrial experience and give you exposure how to work in real project and more ...</div>
+            <div className="g1-item3">Virtaul Vocation provides you the hands-on industrial experience and give you exposure how to work in real project and more ...</div>
         </div>
         <div className={"homecont"}>
             <div className={"homelist"} style={{padding:"60px 100px 60px 100px"}} >
@@ -34,7 +36,9 @@ function Home(){
                 <div><img src={pro4} alt={"projects"}/><h6>Build<br/>Projects</h6></div>
             </div>
         </div>
-        <div className={"homecont"}></div>
+       
+        <HomeCourseGrid/>
+        <Footer/>
     </div>
 }
 export default Home;

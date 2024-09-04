@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/About.css';
 import Header from './utils/Header';
-
+import Footer from './utils/Footer';
 const AboutUs = () => {
     return (
         <>
@@ -65,6 +65,7 @@ const AboutUs = () => {
                 </p>
             </div>
         </div>
+        <Footer/>
         </>
     );
 };
