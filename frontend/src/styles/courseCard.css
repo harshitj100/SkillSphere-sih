@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #FDDEDE;
   width: 621px;
   height: 651px;
   border-radius: 10px;
@@ -51,6 +50,7 @@
   font-weight: 600;
   line-height: 43.88px;
   text-align: center;
+  color: black;
 }
 
 .description-tag-image {
@@ -67,7 +67,7 @@
   font-weight: 600;
   line-height: 29.26px;
   text-align: left;
-  color: #7C5E5E;
+  color: #dedcdc;
 }
 
 .course-mentor-details-container {
@@ -85,7 +85,7 @@
 
 .mentor-heading {
   font-family: cursive;
-  color: #979797;
+  color: #ffffff;
   font-size: 20px;
   width: auto;
 }
@@ -99,26 +99,32 @@
 
 
 .course-card-container-small {
-  top: 100px;
-  left: 20px;
+  position: static;
   width: 311px;
-  height: 346px;
-  padding: 5px;
+  height: 361px;
+  padding: 15px;
+  padding-left: 22px;
+  align-items: first baseline;
 }
 
 .course-image-small {
   width: 267px;
   height: 176px;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .course-title-card-container-small {
-  padding-right: 0;
+  padding-right: 0px;
+  padding-left: 16px;
+  align-items: left;
+  margin-bottom: 10px;
 }
 
 .course-description-card-container-small {
-  padding-right: 0;
-  margin-bottom: 5px;
+  padding-left: 16px;
+  margin-bottom: 18px;
+  align-items: start;
 }
 
 .double-arrow-image-small {
@@ -147,6 +153,7 @@
 
 .course-mentor-details-container-small {
   width: 100px;
+  margin-left: 30px;
 }
 
 .mentor-img-small {

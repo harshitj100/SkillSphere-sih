@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles/v_lab.css'
-import vLab from './assets/v_lab.jpg'
+import vLab from './assets/v_lab.png'
 import Header from './utils/Header'
 import labIcon from './assets/v-lab-2.png'
 const V_lab = () => {

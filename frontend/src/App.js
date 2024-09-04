@@ -7,6 +7,7 @@ import Course from './Course'
 import { Link, Route, Routes } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Coverpage from "./Coverpage";
+import NotAvailable from './NotAvailable';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -27,8 +28,11 @@ function App() {
       path: "/virtual-lab",
       element: <V_lab />
     },{
-      path: "/course",
+      path: "/course/:id",
       element: <Course />
+    },{
+      path: "/404",
+      element: <NotAvailable />
     }
   ]);
 
@@ -37,7 +41,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Coverpage />} />
         <Route path="/home" element={<Home />} />
-
       </Routes>
     </RouterProvider>
   );
