@@ -4,6 +4,7 @@ import enrollImg from './assets/enroll-btn.png'
 import chatAi from './assets/chatAi.png'
 import Header from './utils/Header';
 import CourseCard from './utils/CourseCard';
+import courseTitleImg from './assets/courseTitle.png'
 
 const Course = () => {
   return (
@@ -12,7 +13,8 @@ const Course = () => {
       <div className='course-start-container'>
         <div className='course-title-container'>
           <div className='course-title'>
-            Intro to Electronics
+            <div className='course-title-img-container'><img src={courseTitleImg} className='course-title-img'/></div>
+            <div className='course-title-text-container'>Intro to Electronics</div>
           </div>
           <div className='course-tag-line'>
             Every great journey begins with a single step—dare to take it, and watch the world unfold.
@@ -96,7 +98,7 @@ const Course = () => {
           </div>
         </div>
       </div>
-      <CourseCard />
+      <CourseCard style="large"/>
     </>
   )
 }

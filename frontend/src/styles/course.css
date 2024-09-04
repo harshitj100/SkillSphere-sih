@@ -6,7 +6,7 @@
 }
 
 .course-title-container {
-  margin-left: 100px;
+  margin-left: 10px;
   padding: 10px;
   height: 400px;
   display: flex;
@@ -15,14 +15,23 @@
   flex-direction: column;
 }
 
-.course-title {
+.course-title{
+  display: flex;
+  align-items: center;
+}
+
+.course-title-text-container {
   width: 428px;
   height: 148px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 48px;
+  font-size: 64px;
   font-weight: 600;
   line-height: 78.02px;
   text-align: left;
+}
+.course-title-img{
+  width: 150px;
+  height: 150px;
 }
 
 .course-tag-line {
@@ -108,7 +117,7 @@
 }
 .course-application-container{
   padding-right: 200px;
-  margin-top: 300px;
+  margin-top: 400px;
 }
 
 .course-defination-question,
