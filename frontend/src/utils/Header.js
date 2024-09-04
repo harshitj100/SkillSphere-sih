@@ -50,7 +50,7 @@ const Header = () => {
           <Link to="/help" className='custom-link'>
             <div className='side-menu-bar-element'>Help</div>
           </Link>
-          <div className='side-menu-bar-element'>Log out</div>
+          <div className='side-menu-bar-element side-menu-bar-element-LogOut'>Log out</div>
         </div>
       </div>
 
