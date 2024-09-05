@@ -1,0 +1,4 @@
+*.js filter=lfs diff=lfs merge=lfs -text
+*.wasm filter=lfs diff=lfs merge=lfs -text
+*.data filter=lfs diff=lfs merge=lfs -text
+virtual[[:space:]]lab[[:space:]]host[[:space:]]file/Build/virtual[[:space:]]lab[[:space:]]host[[:space:]]file.data filter=lfs diff=lfs merge=lfs -text
