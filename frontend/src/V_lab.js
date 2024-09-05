@@ -32,9 +32,11 @@ const V_lab = () => {
             A virtual lab is an online simulation providing interactive learning experiences and experiments remotely.
           </div>
           <div className='v-lab-start-btn-container'>
+            <a href='https://virtual-lab-vzz3.vercel.app/'>
             <button className='v-lab-start-btn'>
               Start
             </button>
+            </a>
           </div>
         </div>
         <div>
