@@ -14,8 +14,8 @@ const AboutUs = () => {
                 </div>
                 <hr />
                 <p>
-                    Welcome to SkillSphere, your ultimate destination for learning and
-                    growth! At SkillSphere, we are passionate about empowering individuals
+                    Welcome to Virtual Vocation, your ultimate destination for learning and
+                    growth! At Virtual Vocation, we are passionate about empowering individuals
                     to thrive in their careers by offering top-notch vocational courses
                     tailored to the needs of various industries. Our platform provides a
                     comprehensive learning experience through online courses, virtual labs,
@@ -27,11 +27,11 @@ const AboutUs = () => {
             <div className="about-us-container">
                 <hr />
                 <div className="about-us-header">
-                    <h2>What is SkillSphere? <i className="fas fa-angle-down"></i></h2>
+                    <h2>What is Virtual Vocation? <i className="fas fa-angle-down"></i></h2>
                 </div>
                 <hr />
                 <p>
-                    SkillSphere is a cutting-edge educational platform that offers a wide
+                    Virtual Vocation is a cutting-edge educational platform that offers a wide
                     range of vocational courses designed to equip you with the practical
                     skills required in today's competitive job market. From
                     industry-specific training to hands-on virtual labs, we provide an
@@ -45,7 +45,7 @@ const AboutUs = () => {
             <div className="about-us-container">
                 <hr />
                 <div className="about-us-header">
-                    <h2>Why SkillSphere? <i className="fas fa-angle-down"></i></h2>
+                    <h2>Why Virtual Vocation? <i className="fas fa-angle-down"></i></h2>
                 </div>
                 <hr />
                 <p>

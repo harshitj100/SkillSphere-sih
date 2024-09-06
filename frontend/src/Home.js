@@ -26,7 +26,7 @@ function Home(){
                 <h1>Invest In Your<br/>Education  <img src={education}></img>
                 </h1>
             </div>
-            <div className="g1-item3">Virtaul Vocation provides you the hands-on industrial experience and give you exposure how to work in real project and more ...</div>
+            <div className="g1-item3">Virtual Vocation provides you the hands-on industrial experience and give you exposure how to work in real project and more ...</div>
         </div>
         <div className={"homecont"}>
             <div className={"homelist"} style={{padding:"60px 100px 60px 100px"}} >
